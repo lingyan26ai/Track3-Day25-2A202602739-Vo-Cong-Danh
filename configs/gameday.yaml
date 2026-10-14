@@ -53,7 +53,7 @@ client:
 # wrong_answers_by_reason, tune each value and justify it in report section 8.
 # ----------------------------------------------------------------------------
 cache:
-  similarity_threshold: 0.80
-  ttl_s: 600
-  max_stale_s: 0
+  similarity_threshold: 0.91   # catalog: same-intent paraphrases >= 0.951, different intents <= 0.862 -> midpoint-ish
+  ttl_s: 60                    # bounds outdated_answers after a silent update (2-3 here, limit 15)
+  max_stale_s: 300             # stale-if-error window; must exceed the longest outage (120 s on C1) with margin
   max_entries: 500
