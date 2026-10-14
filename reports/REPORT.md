@@ -1,6 +1,6 @@
 # Lab 25B — Report
 
-**Họ tên / nhóm:** Võ Công Danh — MSV 2A202602739  **Commit:** `<điền hash sau khi commit/push>`  **Điểm tự động (`make grade`):** 84 / 88 (4 điểm còn lại là dữ liệu SLO ẩn do giảng viên chấm; bản public đã PASS)
+**Họ tên / nhóm:** Võ Công Danh — MSV 2A202602739  **Commit:** `3e4fa37fe924fb6f4b7c10be6ada49e83e3e4016`  **Điểm tự động (`make grade`):** 84 / 88 (4 điểm còn lại là dữ liệu SLO ẩn do giảng viên chấm; bản public đã PASS)
 
 > Số liệu lấy từ `reports/gameday/*.json`, `reports/cache/*.json`, `reports/workflows.json`, `reports/slo.json`, `reports/scoreboard.json`
 > (seed mặc định của `make`, tức `seed: 25` trong config). Điểm tự động `make grade --seeds 25,26,27` và thêm 10 seed khác (1–10) đều PASS cả 6 băng + C1.
